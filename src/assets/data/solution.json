@@ -1,0 +1,175 @@
+[
+  {
+    "category": "세무사 사무실관리 솔루션",
+    "categoryDescription": "수임처와의 커뮤니케이션 수단을 제공하고 업무 일정과 자료를 자동화 방식으로 체계적 관리",
+    "list": [
+      {
+        "title": "커뮤니케이션 수단 제공",
+        "description": "수임처와의 소통 툴",
+        "label": "고객소통",
+        "image": "slides/office-slide-1.png",
+        "color": "#FFA564"
+      },
+      {
+        "title": "편리한 업무 확인",
+        "description": "업무 To-Do 리스트 관리",
+        "label": "업무목록",
+        "image": "slides/office-slide-2.png"
+      },
+      {
+        "title": "업무의 자동화",
+        "description": "수임처 세무 업무 최소화",
+        "label": "업무처리",
+        "image": "slides/office-slide-3.png"
+      },
+      {
+        "title": "금융 분석 서비스",
+        "description": "재무, 경영 분석 레포트 서비스",
+        "label": "자료분석",
+        "image": "slides/office-slide-4.png",
+        "color": "#4987FF"
+      },
+      {
+        "title": "다양한 문서 관리",
+        "description": "업무 문서들의 누적 관리",
+        "label": "문서관리",
+        "image": "slides/office-slide-5.png",
+        "color": "#FF7171"
+      }
+    ]
+  },
+  {
+    "category": "회계ㆍ세무 솔루션",
+    "categoryDescription": "장부와 재무제표 등 회계자료를 데이터 자동 입력 및 수집 시스템을 통해 빠르고 체계적으로 관리 ",
+    "link": "https://smarterp.xn--hz2b15nba796a8tuprd.com/",
+    "list": [
+      {
+        "title": "빠르고 편한 회계 기장",
+        "description": "사업장별 증빙자료 자동 수집 기능\n자동 전표 처리",
+        "label": "회계관리",
+        "image": "slides/account-slide-1.png",
+        "color": "#4987FF"
+      },
+      {
+        "title": "재무제표 실시간 반영",
+        "description": "회계 작업 시 단위 간 즉시 처리",
+        "label": "재무제표",
+        "image": "slides/account-slide-2.png"
+      },
+      {
+        "title": "정교한 자산 관리",
+        "description": "자산 유형을 세분화한 맞춤형 관리",
+        "label": "자산관리",
+        "image": "slides/account-slide-3.png",
+        "color": "#FFCF54"
+      },
+      {
+        "title": "부가세 전자신고",
+        "description": "전표 입력을 통한 전자신고 지원",
+        "label": "부가세관리",
+        "image": "slides/account-slide-4.png"
+      },
+      {
+        "title": "맞춤형 설정 기능",
+        "description": "회계 기본환경 및 세무 자동 설정 관리",
+        "label": "항목관리",
+        "image": "slides/account-slide-5.png",
+        "color": "#5BBAFF"
+      },
+      {
+        "title": "정확한 데이터 수집",
+        "description": "계정 과목별 필수 수집 항목 설정",
+        "label": "데이터관리",
+        "image": "slides/account-slide-6.png",
+        "color": "#8E93FF"
+      }
+    ]
+  },
+  {
+    "category": "세무조정 솔루션",
+    "categoryDescription": "손금 / 익금 조정부터 공제감면과 최저 한세조정, 신고서와 전자신고 까지 법인 조정의 모든 것을 하나로 처리하게 도와 주는 솔루션",
+    "link": "https://www.bizbeetax.com/",
+    "list": [
+      {
+        "title": "예상 법인세 산출",
+        "description": "법인세 산출 세액 자동 계산",
+        "label": "세액산출",
+        "image": "slides/tax-slide-1.png",
+        "color": "#FF7171"
+      },
+      {
+        "title": "국세의 전자신고",
+        "description": "다양한 세금 신고의 전자화",
+        "label": "세금신고",
+        "image": "slides/tax-slide-2.png",
+        "color": "#8E93FF"
+      },
+      {
+        "title": "웹 방식의 유연한 접근",
+        "description": "장소에 구애받지 않는 편의성",
+        "label": "실시간업무",
+        "image": "slides/tax-slide-3.png"
+      },
+      {
+        "title": "사용자 정의 화면 구성",
+        "description": "항목의 작성순에 따른 화면 배치",
+        "label": "화면설정",
+        "image": "slides/tax-slide-4.png",
+        "color": "#FFA564"
+      },
+      {
+        "title": "기장 데이터 자동 조정",
+        "description": "데이터에 근거한 정확한 조정",
+        "label": "자료조정",
+        "image": "slides/tax-slide-5.png",
+        "color": "#FFCF54"
+      },
+      {
+        "title": "회사 회계 데이터 활용",
+        "description": "API 연동과 Excel 자료 호환 가능",
+        "label": "데이터연동",
+        "image": "slides/tax-slide-6.png"
+      }
+    ]
+  },
+  {
+    "category": "경정청구 솔루션",
+    "categoryDescription": "간단한 회사 정보 입력만으로 5년 간 더 낸 세금 금액과 환급 가능 여부를 빠르고 정밀하게 조회",
+    "link": "https://www.smarttax.ai/",
+    "list": [
+      {
+        "title": "세금 바로 찾기",
+        "description": "5분이면 5년 간 더 낸 세금 바로 찾기",
+        "label": "경정청구",
+        "image": "slides/request-slide-1.png",
+        "color": "#5BBAFF"
+      },
+      {
+        "title": "정확한 산출",
+        "description": "원천징수부 PDF 처리를 통한 정확한 산출",
+        "label": "정밀계산",
+        "image": "slides/request-slide-2.png",
+        "color": "#4987FF"
+      },
+      {
+        "title": "검증받은 전문가",
+        "description": "경정청구 전문 세무사가 직접 검수",
+        "label": "전문인력",
+        "image": "slides/request-slide-3.png"
+      },
+      {
+        "title": "신고 결과 제공",
+        "description": "법인세, 종합소득세 신고 결과 제공",
+        "label": "신고확인",
+        "image": "slides/request-slide-4.png"
+      },
+      {
+        "title": "사후관리 기능",
+        "description": "세법에 따른 사후관리 기능",
+        "label": "고객관리",
+        "image": "slides/request-slide-5.png",
+        "color": "#FF7171"
+      }
+    ]
+  }
+]

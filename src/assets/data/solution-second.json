@@ -1,0 +1,78 @@
+[
+  {
+    "category": "소통 협업 솔루션",
+    "categoryDescription": "웹과 모바일로 업무에 필요한 정보와 자료를 실시간으로 공유하고, 한눈에 볼 수 있어 업무 진행 상황을 편리하게 관리할 수 있는 협업툴",
+    "link" : "https://works.bizbee.co.kr/",
+    "list" : [
+      {
+        "title" : "신세대 그룹웨어",
+        "description" : "메신저, 메일, 전자결재,\n회사 회의, 게시판 등",
+        "image" : "slides/second-slide-1.png"
+      },
+      {
+        "title" : "실시간 업무 처리 및 공유",
+        "description" : "커뮤니티 기반 업무, 글,\n일정 및 문서관리",
+        "image" : "slides/second-slide-2.png"
+      },
+      {
+        "title" : "자원 예약 관리",
+        "description" : "회의실, 차량 등",
+        "image" : "slides/second-slide-3.png"
+      },
+      {
+        "title" : "다양한 소통 채널",
+        "description" : "쪽지, 톡 등",
+        "image" : "slides/second-slide-4.png"
+      },
+      {
+        "title" : "소통 단일화",
+        "description" : "사설 SNS 미사용",
+        "image" : "slides/second-slide-5.png"
+      }
+    ]
+  },
+
+  {
+    "category": "전자계약 솔루션",
+    "categoryDescription": "복잡한 계약 업무를 비대면으로 처리 가능한 스마트한 계약관리 솔루션",
+    "link" : "https://www.smart-esign.com/RESTful/service",
+    "list" : [
+      {
+        "title" : "편리한 계약 진행",
+        "description" : "종이 서류에 수반되는\n번거로운 진행 절차 생략",
+        "image" : "slides/second-slide-6.png"
+      },
+      {
+        "title" : "간단한 본인 확인",
+        "description" : "공동인증서 또는 본인 인증\n절차만으로 계약 체결",
+        "image" : "slides/second-slide-7.png"
+      },
+      {
+        "title" : "철저한 사후관리",
+        "description" : "서식 작성 및 수정 등\n사후 관리 제공",
+        "image" : "slides/second-slide-8.png"
+      },
+      {
+        "title" : "API 연동을 통한 확장",
+        "description" : "ERP, 그룹웨어 API\n연동 지원",
+        "image" : "slides/second-slide-9.png"
+      },
+      {
+        "title" : "맞춤형 계약 서식",
+        "description" : "근로 및 상거래, 부동산,\n아웃소싱 등 여러 분야 적용",
+        "image" : "slides/second-slide-10.png"
+      },
+      {
+        "title" : "계약서 보관",
+        "description" : "계약 절차에 대한 로그 기록으로\n이력 보관",
+        "image" : "slides/second-slide-11.png"
+      },
+      {
+        "title" : "법령에 준수한 안전 계약",
+        "description" : "법적 효력을 가지는\n전자계약 서비스 제공",
+        "image" : "slides/second-slide-12.png"
+      }
+    ]
+  }
+  
+]

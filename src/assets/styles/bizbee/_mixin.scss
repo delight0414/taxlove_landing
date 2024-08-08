@@ -1,0 +1,41 @@
+// mixin 파일 추가 2023.06.23
+
+@mixin flexCenter(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @content
+};
+
+@mixin font($s, $w:null, $f:null) {
+  font: {
+      size: $s;
+      weight: $w;
+      family: $f;
+  }
+};
+
+
+
+@mixin pc {
+  @media all and (min-width: 1271px) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media all and (min-width: 1025px) and (max-width: 1270px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media all and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media all and (max-width: 768px) {
+    @content;
+  }
+}

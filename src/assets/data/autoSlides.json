@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "세무사 사무실관리\n솔루션",
+    "color": "linear-gradient(180deg, #B9D5FF 40%, #3786FF 100%)"
+  },
+  {
+    "id": 2,
+    "title": "회계ㆍ세무\n솔루션",
+    "color": "linear-gradient(180deg, #FFC6C6 40%, #FF7B7B 100%)"
+  },
+  {
+    "id": 3,
+    "title": "세무조정\n솔루션",
+    "color": "linear-gradient(180deg, #FFF2AE 40%, #FFBB36 100%)"
+  },
+  {
+    "id": 4,
+    "title": "경정청구\n솔루션",
+    "color": "linear-gradient(180deg, #B9D5FF 40%, #3786FF 100%)"
+  },
+  {
+    "id": 5,
+    "title": "인사ㆍ노무\n솔루션",
+    "color": "linear-gradient(180deg, #FFC6C6 40%, #FF7B7B 100%)"
+  },
+  {
+    "id": 6,
+    "title": "근태관리\n솔루션",
+    "color": "linear-gradient(180deg, #FFF2AE 40%, #FFBB36 100%)"
+  },
+  {
+    "id": 7,
+    "title": "소통ㆍ협업\n솔루션",
+    "color": "linear-gradient(180deg, #B9D5FF 40%, #3786FF 100%)"
+  },
+  {
+    "id": 8,
+    "title": "전자계약\n솔루션",
+    "color": "linear-gradient(180deg, #FFC6C6 40%, #FF7B7B 100%)"
+  },
+  {
+    "id": 9,
+    "title": "교육\n플랫폼",
+    "color": "linear-gradient(180deg, #FFF2AE 40%, #FFBB36 100%)"
+  },
+  {
+    "id": 10,
+    "title": "복지\n플랫폼",
+    "color": "linear-gradient(180deg, #B9D5FF 40%, #3786FF 100%)"
+  },
+  {
+    "id": 11,
+    "title": "IT\n플랫폼",
+    "color": "linear-gradient(180deg, #FFC6C6 40%, #FF7B7B 100%)"
+  }
+]

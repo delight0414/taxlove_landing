@@ -1,0 +1,364 @@
+@use "sass:math";
+
+$mainColor :#FAE100;
+$subColor: #2B2B2B;
+$coolGray: #8D99A8;
+
+$font: 'Pretendard', sans-serif;
+$text: #36363D;
+$subtext: #414D5C;
+$tarnsition : .3s;
+
+
+@keyframes downUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes downUp2 {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@function px($size) {
+  // px사이즈를 입력하면 rem으로 변환
+  //@return #{($size / 16)}rem;
+  @return calc(calc($size / 16) * 1rem);
+}
+
+$base-rem-size: 16px;
+
+@function remove-unit($value) {
+  @return (math.div($value , ($value * 0 + 1)));
+}
+
+@function rem($px, $base: $base-rem-size) {
+  @return (remove-unit(math.div($px , $base))) * 1rem;
+}
+
+@function bgImg($name) {
+  @return url(@/assets/icon/#{$name}.svg);
+}
+
+// 미디어쿼리
+
+
+
+
+@mixin pc {
+  @media all and (min-width: 1024px) {
+    @content;
+  }
+}
+
+
+@mixin tablet {
+  @media all and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media all and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin min-2000 {
+  @media all and (min-width: 2000px) {
+    @content;
+  }
+}
+
+
+@mixin max1600 {
+  @media all and (max-width: 1599px) {
+    @content;
+  }
+}
+
+
+
+
+@mixin font($s, $w: null, $f: null) {
+  font: {
+    size: $s;
+    weight: $w;
+    family: $f;
+  }
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @content;
+}
+
+@mixin flexAlign($gap : null) {
+  display: flex;
+  align-items: center;
+  gap: $gap;
+  @content;
+}
+
+@mixin ellipsis($line-cnt, $line-height) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $line-cnt;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: $line-height;
+  height: $line-height * $line-cnt;
+  @content;
+}
+
+@mixin textOverflow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  overflow: hidden;
+  @content;
+}
+
+@mixin btnTy02 {
+  padding: 0 16px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #32D583;
+  color: #FFFFFF;
+  font-weight: 400;
+
+  &:hover {
+    background-color: #19e084;
+  }
+
+  &.border_btn {
+    background: #FFFFFF;
+    border: 1px solid #CDD3DD;
+    color: #0F1B2A;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+
+  }
+
+  &.btn_ty02_icon {
+    gap: 6px;
+  }
+
+  @content;
+}
+
+@mixin inputStyle {
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #E4E8EE;
+  background-color: #fff;
+
+  &::placeholder {
+    color: #8D99A8;
+  }
+
+  &:hover,
+  &:focus {
+    border: 1px solid#32D583;
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 0px 2px #A6F4C5;
+  }
+
+  &:read-only,
+  &:read-only:hover,
+  &:read-only:focus {
+    border: 1px solid #CDD3DD;
+    background-color: #F8F9FB;
+    box-shadow: none
+  }
+
+  @content;
+}
+
+
+
+@mixin checkBoxStyle {
+  .checkbox {
+    display: inline-block;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    background: url(@/assets/icon/check2-off.svg) no-repeat left center / 16px;
+    flex-shrink: 0;
+
+    @include tablet {
+      background-image: url(@/assets/icon/check-off-empty.svg);
+      width: 20px;
+      height: 20px;
+      background-size: 20px;
+    }
+
+    &.check {
+      background-image: url(@/assets/icon/check2-on.svg);
+
+      @include tablet {
+        background-image: url(@/assets/icon/check-on.svg);
+      }
+    }
+  }
+}
+
+@mixin inputCheck {
+  input[type=checkbox] {
+    display: none;
+  }
+
+  input[type=checkbox]:checked+label {
+    background: url(@/assets/icon/checkbox-on.svg);
+
+  }
+
+  input[type=checkbox]+label {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    background: #fff;
+    background: url(@/assets/icon/checkbox-off.svg);
+  }
+
+  label {
+    cursor: pointer;
+    user-select: none
+  }
+}
+
+@mixin inputSearch() {
+  .input_search {
+    @include inputStyle;
+    width: 240px;
+    height: 36px;
+    padding-left: 12px;
+    border: 1px solid #E4E8EE;
+    border-radius: 4px;
+    background: url(@/assets/icon/works-search.svg) no-repeat;
+    background-position: calc(100% - 12px) center;
+    background-size: 18px;
+
+    @include tablet {
+      width: 100%;
+    }
+  }
+
+  .input_search+button:not(.input_search_close) {
+    height: 36px;
+    padding: 0px 16px;
+    border-radius: 4px;
+    border: 1px solid #CDD3DD;
+    background: #EEF1F6;
+  }
+
+  .input_search_close {
+    position: absolute;
+    right: 46px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    background: bgImg(new-search-close) no-repeat center;
+    cursor: pointer;
+
+    @include tablet {
+      right: 50px;
+    }
+  }
+
+}
+
+@mixin table {
+  table {
+    border-spacing: 0;
+    border-collapse: separate;
+
+    th,
+    td {
+      padding: 0 10px;
+      height: 36px;
+      @include font(13px, 400);
+      border-bottom: 1px solid #CDD3DD;
+    }
+
+    tr {
+      &:hover {
+        background: #D1FADF;
+      }
+    }
+
+    thead {
+      th {
+        position: sticky;
+        top: 0;
+        z-index: 3;
+        font-weight: 600;
+        background: #EEF1F6;
+        border-top: 1px solid #0F1B2A;
+        text-align: left;
+      }
+
+      th:not(:last-of-type) {
+        border-right: 1px solid #CDD3DD;
+
+      }
+    }
+
+    tbody {
+      td:not(:last-of-type) {
+        border-right: 1px solid #CDD3DD;
+      }
+    }
+  }
+
+  @content;
+}
+
+@mixin hover {
+  @media (hover: hover) {
+    @content
+  }
+}
+
+;
+
+@mixin alignCenter($gap) {
+  display: flex;
+  align-items: center;
+  gap: $gap;
+}

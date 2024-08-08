@@ -1,0 +1,66 @@
+[
+  {
+    "category": "인사 노무 솔루션",
+    "categoryDescription": "직원현황, 인사발령, 급여, 4대보험 등 인사 담당자의 필수 업무를 통합 시스템으로 관리",
+    "link" : "https://smarterp.xn--hz2b15nba796a8tuprd.com/",
+    "list" : [
+      {
+        "title" : "직원명부 조회",
+        "description" : "인사 기초 정보 관리와 조회",
+        "icon" : "slides/solution-card-1.svg"
+      },
+      {
+        "title" : "급여 정보 등록",
+        "description" : "지급, 공제 항목의 유연한 설정",
+        "icon" : "slides/solution-card-2.svg"
+      },
+      {
+        "title" : "발령내역 관리",
+        "description" : "발령 유형별 체계적 관리",
+        "icon" : "slides/solution-card-3.svg"
+      },
+      {
+        "title" : "인사 서식 제공",
+        "description" : "다양한 법정 서식 제공",
+        "icon" : "slides/solution-card-4.svg"
+      },
+      {
+        "title" : "근태 현황 조회",
+        "description" : "근태 및 연차 등 현황 확인",
+        "icon" : "slides/solution-card-5.svg"
+      },
+      {
+        "title" : "퇴직금 자동 계산",
+        "description" : "직원별 퇴직금 계산",
+        "icon" : "slides/solution-card-6.svg"
+      }
+    ]
+  },
+  {
+    "category": "근태관리 솔루션", 
+    "categoryDescription": "주 52시간, 유연근로제와 회사의 다양한 근무 정책을 반영할 수 있는 모바일 기반 근태관리 시스템",
+    "link" : "http://smartstay.xn--hz2b15nba796a8tuprd.com/",
+    "list" : [
+      {
+        "title" : "모바일 기반 출퇴근 기록 관리",
+        "description" : "WIFI, GPS, 비콘기반 출퇴근 관리 / 시간, 일간, 월별 상세한 근태 확인",
+        "icon" : "slides/solution-card-7.svg"
+      },
+      {
+        "title" : "대시보드 제공",
+        "description" : "개인 및 팀원의 근무 현황 공유",
+        "icon" : "slides/solution-card-8.svg"
+      },
+      {
+        "title" : "근태 및 근무 일정 관리",
+        "description" : "연차 및 휴가, 연장근무 관리",
+        "icon" : "slides/solution-card-9.svg"
+      },
+      {
+        "title" : "정확한 급여 관리",
+        "description" : "기본급, 각종 수당, 상여금 등 자동 계산",
+        "icon" : "slides/solution-card-10.svg"
+      }
+    ]
+  }
+]
